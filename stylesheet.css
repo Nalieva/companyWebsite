@@ -1,0 +1,96 @@
+body {
+   padding: 0%;
+   margin: 0%;
+   background-color:rgb(0, 107, 189);
+}
+
+.navlinks ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navlinks {
+    background-color: sienna;
+    color:rgb(0, 70, 136);
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Palette Mosaic', cursive;
+}
+
+.links {
+    padding: 16px;
+    border-bottom: 2px solid rgb(0, 107, 189);
+}
+
+.links:hover {
+    background-color:rgb(0, 107, 189)
+}
+
+.imagebanner {
+    background-image: url("images/imagebanner.png");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.money {
+    background-color:rgb(0, 107, 189);
+    color:rgba(5, 111, 192, 0.808)
+}
+
+span {
+    text-align:center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.418);
+    padding: 5px;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.introduction {
+    text-align: center;
+    color: rgb(122, 60, 31);
+    font-size: 1.8rem;
+    font-family: 'Anton', sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.list {
+    text-align: left;
+    margin-left: 25%;
+}
+
+.menu {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (min-width: 700px) {
+    .navlinks ul {
+        text-align: right;
+    }
+
+    .links {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 2px solid rgb(0, 107, 189);
+    }
+
+    .list {
+        margin-left: 8%;
+    }
+
+    .meal {
+        width:30%;
+        display: inline-block;
+        vertical-align: top;
+        border: 2px solid black;
+        padding-top: 2%;
+    }
+}
